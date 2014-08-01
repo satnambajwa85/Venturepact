@@ -1,0 +1,225 @@
+@charset "utf-8";
+body{margin:0px;padding:0px;}
+.login_page {
+	background: #e6e6e6;
+	padding: 195px 0;
+	color: #666;
+	font-family:Arial, Helvetica, sans-serif;
+}
+form p
+{
+	margin:0;
+	padding:0;
+	margin-bottom:10px;
+}
+.right {
+    float: right;
+}
+.right a
+{
+	color:#888;
+	transition: all 600ms ease-in-out 0s;
+}
+.right a:hover
+{
+	color:#2CCAFD;
+}
+.left {
+    float: left;
+}
+.left a
+{
+	color:#888;
+	transition: all 600ms ease-in-out 0s;
+}
+.left a:hover
+{
+	color:#2CCAFD;
+}
+button {
+    font-weight: normal;
+}
+.login_page .login_box {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+	background: #666;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.login_page .links {
+	width: 340px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.login_page img {
+	padding-bottom: 20px;
+}
+.set_butn
+{
+	background: none repeat scroll 0 0 #F74747;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 15px;
+    padding: 5px 10px;
+	cursor:pointer;
+    text-decoration: none;
+    transition: all 600ms ease-in-out 0s;
+}
+.set_butn:hover
+{
+	background:#18c9ff;
+}
+.text
+{
+	background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    color: #333333;
+    font-size: 16px;
+    outline: medium none;
+    padding: 7px;
+    vertical-align: middle;
+    width: 285px;
+}
+.clearfix:after, .container:after 
+{
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix, .container {
+    display: block;
+}
+
+.qus_box_outer {
+	background: #e6e6e6;
+	padding: 100px 0;
+	color: #666;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.qus_box_outer .links {
+	width: 340px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.qus_box_outer img {
+	padding-bottom: 20px;
+}
+.qus_box {
+	width: 666px;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+	background: #666;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.qus_box form p
+{
+	margin:0;
+	padding:0;
+	margin-bottom:15px;
+}
+.qus_box .set_butn
+{ float:right;
+	background: none repeat scroll 0 0 #F74747;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 15px;
+    padding: 5px 10px;
+	cursor:pointer;
+    text-decoration: none;
+    transition: all 600ms ease-in-out 0s;
+}
+.qus_box .set_butn:hover
+{
+	background:#18c9ff;
+}
+.qus_box_outer .links .right {
+    float: right;
+}
+.qus_box_outer .links .right a
+{
+	color:#888;
+	transition: all 600ms ease-in-out 0s;
+}
+.qus_box_outer .links .right a:hover
+{
+	color:#2CCAFD;
+}
+.qus_box .text
+{
+	background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    color: #333333;
+    font-size: 16px;
+    outline: medium none;
+    padding: 7px;
+    vertical-align: middle;
+    width: 285px;
+}
+.qus_box .clearfix:after, .container:after 
+{
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.qus_box .clearfix, .container {
+    display: block;
+}
+.qus_box_outer .links .left {
+    float: left;
+}
+.qus_box_outer .links .left a
+{
+	color:#888;
+	transition: all 600ms ease-in-out 0s;
+}
+.qus_box_outer .links .left a:hover
+{
+	color:#2CCAFD;
+}
+.size_textarea{ width:100%;font-family:Arial, Helvetica, sans-serif; padding-left:5px; padding-top:5px;}
+.error_outer{
+	 float:left;
+	 width:100%;
+	 background-attachment: fixed;
+    background-image:url(../images/office1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; ,height:auto; height:100%; position:fixed;  }
+.error_404_outer{margin:0 auto; width:350px; }
+.error_404{ float:left; width:100%;  font-size:13em; font-family:Arial, Helvetica, sans-serif; color:#fff; font-weight:bold; margin-top:35%; }
+.small_error_text{ float:left; width:100%;  font-size:18px; font-family:Arial, Helvetica, sans-serif; color:#fff;  text-align:center; line-height:25px; margin-bottom:10%;}
+.small_error_text span{ font-weight:bold;padding-bottom:20px;}
+.backtohome_butn 
+{	float:left;  	
+	background: none repeat scroll 0 0 #F74747;
+	border: medium none;
+    color: #FFFFFF;
+    font-size: 18px; margin-left:34%;
+    padding: 5px 10px;
+	cursor:pointer;
+    text-decoration: none;
+    transition: all 600ms ease-in-out 0s;
+}
+.backtohome_butn:hover
+{
+	background:#18c9ff;
+}
+.button_outer{ float:left; width:100%;}/* CSS Document */
+

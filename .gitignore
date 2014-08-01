@@ -1,0 +1,6 @@
+*.sql
+*.sqlite
+npm-debug.log
+protected/config/*
+protected/runtime/*
+assets/*

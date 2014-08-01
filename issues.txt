@@ -1,0 +1,7 @@
+1. In the FAQ Page. When you open a slider, all other already open sliders should close automatically.
+2. It would be great if we can smoothen the transition from 'Login' to 'Request an invite' on the landing page.
+3. Implement Google Analytics.
+4. {Done by Sahil} - FAQ to FAQ'S 
+5. Hovering over links on the top bar (The Community, The Pact) it should turn white as in https://www.interviewstreet.com/recruit2/
+6. In password change page. if save empty fields it makes textboxes weired. Also we should add some css to the errors.
+http://www.screencast.com/t/UPaFQyFMfE2
